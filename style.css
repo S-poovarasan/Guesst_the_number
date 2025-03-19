@@ -1,0 +1,54 @@
+body{
+    text-align: center;
+    font-size: 40px;
+    background-color: rgb(139, 185, 187);
+}
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.container{
+    
+    /*background-image: url("https://cdn.pixabay.com/photo/2015/09/13/10/06/pay-937884_1280.jpg");*/
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vb;
+}
+.button{
+    height: 50px;
+    width: 200px;
+    background-color: black;
+    cursor: pointer;
+    color: aliceblue;
+}
+.button:hover{
+    background-color: grey;
+}
+#number{
+    border: solid black 5px;
+    text-align: center;
+    height: 40px;
+    width: 120px;
+    border-radius: 10px;
+    margin-top: 35px;
+    margin-right: 20px;
+}
+#submit{
+    margin: 30px;
+}
+.inputcontainer{
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+}
+
+#message{
+    display: none;
+    font-size: 1.5em;
+    color: black;
+    padding: 5px 15px;
+}
